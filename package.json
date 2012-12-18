@@ -1,0 +1,36 @@
+{
+  "name": "grunt-jsttojs",
+  "version": "0.0.1",
+  "description": "Building js tanplate with grunt",
+  "homepage": "http://upwards.github.com/grunt-jsttojs/",
+  "author": {
+    "name": "Alexey Kupriyanenko",
+    "email": "a.kupriyanenko@gmail.com",
+    "url": "http://lifeprom.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kupriyanenko/grunt-jsttojs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kupriyanenko/grunt-jsttojs/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "main": "grunt.js",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "dependencies": {
+    "jsttojs": ">=0.0.3"
+  },
+  "keywords": [
+    "gruntplugin",
+    "grunt",
+    "jsttojs"
+  ]
+}
