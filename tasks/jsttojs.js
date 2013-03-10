@@ -10,9 +10,9 @@ var jsttojs = require('jsttojs');
 
 module.exports = function (grunt) {
 
-  grunt.task.registerTask('jsttojs', 'A sample task that logs stuff.', function() {
-  	var done = this.async();
-  	var config = grunt.config('jsttojs');
+  grunt.registerTask('jsttojs', 'A sample task that logs stuff.', function() {
+    var done = this.async();
+    var config = grunt.config('jsttojs');
 
     jsttojs.compile(config, done);
 
