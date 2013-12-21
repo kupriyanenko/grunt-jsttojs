@@ -1,6 +1,8 @@
 grunt-jsttojs
 =======
 
+[![NPM version](https://badge.fury.io/js/grunt-jsttojs.png)](http://badge.fury.io/js/grunt-jsttojs)
+
 _If you haven't used [grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](https://github.com/cowboy/grunt/blob/master/docs/getting_started.md) guide._
 
 ### Getting Started
