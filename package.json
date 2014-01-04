@@ -1,6 +1,6 @@
 {
   "name": "grunt-jsttojs",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Building js tanplate with grunt",
   "homepage": "http://upwards.github.com/grunt-jsttojs/",
   "author": {
@@ -26,7 +26,7 @@
     "node": ">=0.8.0"
   },
   "dependencies": {
-    "jsttojs": ">=0.0.3"
+    "jsttojs": ">=1.2.0"
   },
   "keywords": [
     "gruntplugin",
