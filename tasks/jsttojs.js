@@ -14,8 +14,9 @@ module.exports = function (grunt) {
     var done = this.async();
     var config = grunt.config('jsttojs');
 
-    jsttojs.compile(config, done);
-
-    grunt.log.writeln('complete done: ' + config.output);
+    jsttojs.compile(config, function() {
+        grunt.log.writeln('done, output: ' + config.output);
+        done();
+    });
   });
 }
